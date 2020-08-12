@@ -13,3 +13,18 @@ let widthLabel = lable + String(width) // Have to enure type is printed as Strin
 
 
 print(widthLabel) // prints the constant widthLabel
+
+
+// Control Flow Example:
+
+let individualScoresprime = [73, 45, 103, 87, 90, 20]
+var teamScoreprime = 0
+
+for score in individualScoresprime {
+    if score > 50 {
+        teamScoreprime += 3
+    } else {
+        teamScoreprime += 1
+    }
+}
+print(teamScoreprime)
