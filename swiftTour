@@ -9,5 +9,7 @@ let lable = "The width is " // Set constant named lable to "The width is"
 let width = 94 // infers Int
 let widthLabel = lable + String(width) // Have to enure type is printed as String - will not compile otherwise
 
+// let widthLabel = label + /(width) is the same as above -- no need to type "String"
+
 
 print(widthLabel) // prints the constant widthLabel
