@@ -7,7 +7,7 @@ print(str)
 
 let lable = "The width is " // Set constant named lable to "The width is"
 let width = 94 // infers Int
-let widthLabel = lable + String(width) // Have to enure type is printed as String
+let widthLabel = lable + String(width) // Have to enure type is printed as String - will not compile otherwise
 
 
 print(widthLabel) // prints the constant widthLabel
