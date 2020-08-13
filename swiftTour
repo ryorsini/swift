@@ -44,3 +44,19 @@ if let name = optionalName {
     greeting = "Hello, there!"
 }
 print(greeting)
+
+
+
+// Day Two of Learning (August 13th) - Optionals, Control Flow, Tuples, Switch, Functions
+
+// functions have signatures & bodies
+
+// Functions can return functions.
+// require named parameters unless underscore (_) is included prior
+// can also have two names for an argument, where one is used in the calling of the fuction, and one in the body (former and latter respectively)
+
+func greet (_name:String, day:String) -> String
+
+// can also have 
+
+func greetprime (_name:String, day:String) -> () -> String // returns function which returns a string
